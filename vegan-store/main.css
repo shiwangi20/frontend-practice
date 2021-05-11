@@ -1,0 +1,161 @@
+:root {
+    --font-weight-regular : 400;
+    --font-weight-bold: 600;
+    --font-size-regular: 16px;
+    --font-size-small: 14px;
+    --font-size-xsmall: 12px;
+    --color-green: rgb(170,210,54);
+}
+
+body {
+    font-family: 'Poppins', 'sans-serif';
+    margin: 0;
+}
+
+.container {
+    background-image: url('https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png');
+    background-size: cover;
+    background-position: left;
+    width: 100%;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    padding: 18px 28px;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 40px;
+}
+
+.menu-item{
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-small);
+    margin-right: 24px;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    box-shadow: 0 2px 5px #ccc;
+    border-top: 2px solid var(--color-green);
+    background-color: white;
+    padding: 20px;
+    width: 150px;
+}
+
+.dropdown-content a{
+    display: block;
+    padding: 4px;
+    border-bottom: 1px solid #ccc;
+}
+
+.dropdown-content a:last-child {
+    border-bottom: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.primary-button {
+    font-size: var(--font-size-xsmall);
+    font-weight: var(--font-weight-bold);
+    color: white;
+    background-color: var(--color-green);
+    padding: 9px 34px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+.landing-section {
+    width: 100%;
+    height: 100vh;
+}
+
+.landing-section-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.heading {
+    font-size: 44px;
+    font-weight: var(--font-weight-bold);
+    letter-spacing: 8.8px;
+    line-height: 1.2;
+}
+
+.description {
+    font-size: var(--font-size-small);
+    letter-spacing: 0.5px;
+    font-weight: var(--font-weight-regular);
+    color: #8b8b99;
+    margin: 14px 0;
+    padding-top: 32px;
+}
+
+.step-section-wrapper {
+    display: flex;
+}
+
+.step {
+    color: white;
+    text-align: center;
+    width: 25%;
+    padding: 112px 48px;
+}
+
+.step i {
+    font-size: 96px;
+}
+
+.step-label {
+    font-size: 24px;
+    font-weight: var(--font-weight-bold);
+    margin: 24px 0;
+}
+
+.step-description {
+    font-size: var(--font-size-small);
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+    margin-bottom: 14px;
+}
+
+.step-cut {
+    background-color: #5acda6;
+}
+
+.step-paint-brush {
+    background-color: #91ac41;
+}
+
+.step-shopping-bag {
+    background-color:  #e4b476;
+}
+
+.step-smile {
+    background-color: #f69dad;
+}
