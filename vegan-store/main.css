@@ -206,6 +206,7 @@ nav {
     display: flex;
     max-width: 1140px;
     margin: 0 auto;
+    align-items: center;
 }
 
 .store-item {
@@ -235,4 +236,50 @@ nav {
 .store-item-label {
     font-size: 24px;
     font-weight: var(--font-weight-bold);
+}
+
+.testimonial-section {
+    padding: 75px 0;
+    text-align: center;
+}
+
+.testimonial-desc{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.testimonial-card {
+    background-color: #f5f6fb;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    margin: 16px;
+    padding: 40px 30px;
+}
+
+.testimonial-card-image {
+    width: 80px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+.testimonial-card-message {
+    font-size: var(--font-size-small);
+    letter-spacing: 0.5px;
+    font-style: italic;
+    color: var(--description-text-color);
+}
+
+.testimonial-card-author {
+    font-size: var(--font-size-regular);
+    font-weight: var(--font-weight-bold);
+    margin-top: 24px;
+    margin-bottom: 0;
+}
+
+.testimonial-card-role {
+    font-size: var(--font-size-xsmall);
+    font-style: italic;
+    color: var(--description-text-color);
 }
