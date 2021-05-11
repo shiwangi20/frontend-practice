@@ -283,3 +283,55 @@ nav {
     font-style: italic;
     color: var(--description-text-color);
 }
+
+.follow-section {
+    display: flex;
+}
+
+.left-section{
+    width: 67%;
+}
+
+.left-section img {
+    width: 100%;
+}
+
+.right-section {
+  background-image: url('https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png');  
+  background-size: cover;
+  width: 33%;
+}
+
+.right-section-wrapper{
+    margin: 115px;
+}
+
+.subscribe-email {
+    width: 100%;
+    border: 0;
+    padding: 12px;
+    margin-top: 60px;
+    border-radius: 4px;
+    font-size: var(--font-size-regular);
+    box-sizing: border-box;
+    font-weight: 500;
+    color: var(--description-text-color);
+}
+
+.subscribe-btn {
+    background-color: #f69dad;
+    border: 1px solid #f69dad;
+    color: white;
+    border-radius: 4px;
+    padding: 16px 42px;
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-bold);
+    text-transform: uppercase;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.subscribe-btn:hover {
+    background-color: transparent;
+    color: #f69dad;
+}
