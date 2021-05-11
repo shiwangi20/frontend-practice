@@ -216,6 +216,11 @@ nav {
     padding: 24px;
 }
 
+.store-item:hover .store-item-icon {
+    transform: scale(1.1,1.1);
+    transition: all 0.3s;
+}
+
 .store-item-icon {
     background-color: #e3b375;
     padding: 40px;
