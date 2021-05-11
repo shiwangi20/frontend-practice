@@ -127,7 +127,12 @@ nav {
     padding: 112px 48px;
 }
 
-.step i {
+.step:hover .step-icon{
+    transform: scale(1.1,1.1);
+    transition: all 0.3s;
+}
+
+.step-icon {
     font-size: 96px;
 }
 
