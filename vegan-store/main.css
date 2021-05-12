@@ -335,3 +335,34 @@ nav {
     background-color: transparent;
     color: #f69dad;
 }
+
+.stats-section {
+    background-color: #f6fcfa;
+}
+
+.stats-section-wrapper {
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.stats-item {
+    width: 25%;
+    padding: 0 64px;
+}
+
+.stats-item-header {
+    font-size: 44px;
+    font-weight: var(--font-weight-bold);
+    margin: 0;
+}
+
+.stats-item-desc {
+    font-size: var(--font-size-small);
+    font-weight: 500;
+    font-style: italic;
+    color: #57e3b5;
+    margin: 0;
+}
