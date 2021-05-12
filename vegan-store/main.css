@@ -10,13 +10,8 @@
 
 body {
     font-family: 'Poppins', 'sans-serif';
+    font-size: 16px;
     margin: 0;
-}
-
-.green-text {
-    color: #91ac41;
-    font-size: 24px;
-    font-family: 'Caveat', cursive;
 }
 
 .container {
@@ -25,6 +20,24 @@ body {
     background-position: left;
     width: 100%;
     height: 100vh;
+}
+
+.section-heading {
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0 0 8px;
+}
+
+.section-description {
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: var(--description-text-color);
+}
+
+.green-text {
+    color: #91ac41;
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
 }
 
 nav {
@@ -107,18 +120,14 @@ nav {
     margin: 0 auto;
 }
 
-.heading {
-    font-size: 44px;
-    font-weight: var(--font-weight-bold);
+.landing-heading {
     letter-spacing: 8.8px;
     line-height: 1.2;
 }
 
-.description {
+.landing-description {
     font-size: var(--font-size-small);
-    letter-spacing: 0.5px;
-    font-weight: var(--font-weight-regular);
-    color: var(--description-text-color);
+    font-weight: 400;
     margin: 14px 0;
     padding-top: 32px;
 }
@@ -185,20 +194,7 @@ nav {
     margin-top: 35px;
 }
 
-.store-section-heading {
-    font-size: 44px;
-    font-weight: var(--font-weight-bold);
-    margin-bottom: 8px;
-}
-
 .store-section-description {
-    font-size: var(--font-size-regular);
-    font-weight: 500;
-    color: var(--description-text-color);
-    letter-spacing: 0.5px;
-}
-
-.store-section-spacing {
     margin-bottom: 55px;
 }
 
@@ -245,6 +241,7 @@ nav {
 
 .testimonial-desc{
     max-width: 700px;
+    margin-bottom: 55px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -353,12 +350,6 @@ nav {
     padding: 0 64px;
 }
 
-.stats-item-header {
-    font-size: 44px;
-    font-weight: var(--font-weight-bold);
-    margin: 0;
-}
-
 .stats-item-desc {
     font-size: var(--font-size-small);
     font-weight: 500;
@@ -393,19 +384,6 @@ nav {
     margin: 0 auto;
     padding: 100px 0;
     justify-content: space-between;
-}
-
-.section-heading {
-    font-size: 44px;
-    font-weight: 700;
-    margin: 0;
-}
-
-.section-description {
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 00.5px;
-    color: var(--description-text-color);
 }
 
 .address-heading {
