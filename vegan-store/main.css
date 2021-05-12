@@ -40,6 +40,17 @@ body {
     font-family: 'Caveat', cursive;
 }
 
+.card-wrapper {
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 25%;
+    text-align: center;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -132,14 +143,12 @@ nav {
     padding-top: 32px;
 }
 
-.step-section-wrapper {
-    display: flex;
+.step-section .card-wrapper {
+    max-width: 100%;
 }
 
-.step {
+.step-section .card {
     color: white;
-    text-align: center;
-    width: 25%;
     padding: 112px 48px;
 }
 
@@ -198,18 +207,10 @@ nav {
     margin-bottom: 55px;
 }
 
-.store-items-wrapper {
-    display: flex;
-    max-width: 1140px;
-    margin: 0 auto;
-    align-items: center;
-}
-
-.store-item {
+.store-section .card{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 25%;
     padding: 24px;
 }
 
@@ -246,7 +247,7 @@ nav {
     margin-right: auto;
 }
 
-.testimonial-card {
+.testimonial-section .card {
     background-color: #f5f6fb;
     border-top-left-radius: 45px;
     border-bottom-left-radius: 45px;
@@ -335,19 +336,7 @@ nav {
 
 .stats-section {
     background-color: #f6fcfa;
-}
-
-.stats-section-wrapper {
-    display: flex;
-    max-width: 1140px;
-    margin: 0 auto;
-    text-align: center;
     padding: 100px 0;
-}
-
-.stats-item {
-    width: 25%;
-    padding: 0 64px;
 }
 
 .stats-item-desc {
