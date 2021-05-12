@@ -386,3 +386,69 @@ nav {
     margin-bottom: 36px;
     display: inline-block
 }
+
+.address-wrapper {
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 100px 0;
+    justify-content: space-between;
+}
+
+.section-heading {
+    font-size: 44px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.section-description {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 00.5px;
+    color: var(--description-text-color);
+}
+
+.address-heading {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 32px;
+}
+
+.address-lines {
+    font-size: 16px;
+    font-weight: 400;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    line-height: 2;
+    margin: 0;
+}
+
+.contact-us{
+    width: 50%;
+}
+
+.meet-our-team{
+    width: 40%;
+}
+
+.form-input {
+    display: block;
+    width: 100%;
+    border: 1px solid #e5e6ec;
+    padding: 16px;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    font-size: var(--font-size-regular);
+    box-sizing: border-box;
+    color: #8b8b99;
+}
+
+footer {
+    background-color: #232323;
+    color: white;
+    text-align: center;
+    font-size: var(--font-size-small);
+    letter-spacing: 0.5px;
+    padding: 30px 0;
+}
