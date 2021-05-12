@@ -49,6 +49,7 @@ body {
 .card {
     width: 25%;
     text-align: center;
+    box-sizing: border-box;
 }
 
 nav {
@@ -339,6 +340,10 @@ nav {
     padding: 100px 0;
 }
 
+.stats-section .card {
+    padding: 0 64px;
+}
+
 .stats-item-desc {
     font-size: var(--font-size-small);
     font-weight: 500;
@@ -418,4 +423,42 @@ footer {
     font-size: var(--font-size-small);
     letter-spacing: 0.5px;
     padding: 30px 0;
+}
+
+@media (max-width: 378px) {
+    .menu-item{
+        display: none;
+    }
+    .card-wrapper {
+        flex-direction: column;
+    }
+    .card {
+        width: 100%;
+    }
+    .landing-heading {
+        font-size: 28px;
+    }
+    .follow-section {
+        flex-direction: column;
+    }
+    .right-section{
+        width: 100%;
+    }
+    .left-section{
+        width: 100%;
+    }
+    .address-wrapper{
+        flex-direction: column;
+        padding: 16px;
+        box-sizing: border-box;
+    }
+    .contact-us{
+        width: 100%;
+    }
+    .meet-our-team{
+        width: 100%;
+    }
+    .testimonial-section .card{
+        margin: 16px 0;
+    }
 }
